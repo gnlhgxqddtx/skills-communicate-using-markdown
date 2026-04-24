@@ -21,4 +21,11 @@ ffmpeg -i input.mp4 -vf "negate,hue=h=180,eq=contrast=1.2:saturation=1.1" output
 #include<iostream>
 int main(){std::cout<<"Helloworld";}
 ```
+### Step 4
+-adding pictures with relative url
+![Mona the Octocat](myrepo/original.png)
+-with absolute url
+![Cloudy morning](https://octodex.github.com/images/cloud.jpg)
+<img alt="Mona the Octocat" src="https://octodex.github.com/images/original.png"
+width="200" align="right">
 ## Review
